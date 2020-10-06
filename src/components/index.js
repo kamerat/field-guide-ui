@@ -8,7 +8,7 @@ import HeaderMedium from './HeaderMedium.vue';
 import TextLarge from './TextLarge.vue';
 import Divider from './Divider.vue';
 import ImageContainer from './ImageContainer.vue';
-import CodeContent from './Code.vue';
+import fgCode from './fg-code.vue';
 import fgCard from './fg-card.vue';
 import fgTable from './fg-table.vue';
 
@@ -24,7 +24,7 @@ const Components = {
   TextLarge,
   Divider,
   ImageContainer,
-  CodeContent,
+  fgCode,
   fgCard,
   fgTable,
 };

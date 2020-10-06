@@ -6,7 +6,7 @@
       <div class="label" v-on:click="toggleCode">
         {{labelText}}
       </div>
-      <code-content v-if="viewingCode" :code="code"/>
+      <fg-code v-if="viewingCode" :code="code"/>
       <div v-else>
         <slot name="example"/>
       </div>

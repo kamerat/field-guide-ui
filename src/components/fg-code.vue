@@ -1,5 +1,5 @@
 <template>
-  <div class="code-content">
+  <div class="fg-code">
     <pre v-highlightjs="code"><code class="xml"></code></pre>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import 'highlight.js/styles/default.css';
 
 export default {
-  name: 'CodeContent',
+  name: 'fg-code',
   props: {
     code: String,
   },
@@ -16,12 +16,10 @@ export default {
 </script>
 
 <style scoped>
-.code-content {
+.fg-code {
   border-width: 2px;
   border-style: solid;
   padding: 0px 10px;
-}
-.code-content {
   background-color: #eee;
 }
 </style>
