@@ -7,7 +7,7 @@
         title="Field Guide"
         :page="currentRouteName"
       >
-        <Content>
+        <fg-content>
           <header-large v-if="!sidebar.isMobile">
             FIELD GUIDE
           </header-large>
@@ -34,13 +34,13 @@
           >
             {{getLinkText(componentLink)}}
           </router-link>
-        </Content>
+        </fg-content>
       </SideBar>
     </template>
     <template slot="content">
-      <Content padding>
+      <fg-content padding>
         <router-view/>
-      </Content>
+      </fg-content>
     </template>
   </Container>
 </template>
@@ -121,7 +121,7 @@ export default {
   padding-left: 6px;
   cursor: default;
 }
-.content.padding > div {
+.fg-content.padding > div {
   padding-bottom: 30px;
 }
 </style>

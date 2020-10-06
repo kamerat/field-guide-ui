@@ -1,6 +1,6 @@
 <template>
   <div class="scrollbox">
-    <div class="content"
+    <div class="fg-content"
       v-bind:class="{ padding: padding }"
     >
       <slot></slot>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'Content',
+  name: 'fg-content',
   props: {
     padding: Boolean,
   },
@@ -24,7 +24,7 @@ export default {
   overflow-x: hidden;
   overflow-y: overlay;
 }
-.content {
+.fg-content {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -46,14 +46,14 @@ export default {
   .scrollbox {
     visibility: hidden;
   }
-  .content,
+  .fg-content,
   .scrollbox:hover,
   .scrollbox:active,
   .scrollbox:focus {
     visibility: visible;
   }
 }
-.content.padding {
+.fg-content.padding {
   padding: 0 30px;
 }
 </style>

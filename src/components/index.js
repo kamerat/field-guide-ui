@@ -2,7 +2,7 @@ import Vue from 'vue';
 import HelloWorld from './HelloWorld.vue';
 import SideBar from './SideBar.vue';
 import Container from './Container.vue';
-import Content from './Content.vue';
+import fgContent from './fg-content.vue';
 import HeaderLarge from './HeaderLarge.vue';
 import HeaderMedium from './HeaderMedium.vue';
 import TextLarge from './TextLarge.vue';
@@ -18,7 +18,7 @@ const Components = {
   HelloWorld,
   SideBar,
   Container,
-  Content,
+  fgContent,
   HeaderLarge,
   HeaderMedium,
   TextLarge,

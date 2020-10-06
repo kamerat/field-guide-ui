@@ -13,7 +13,7 @@ export default {
   border-width: 2px;
   border-style: solid;
 }
-.content.padding .fg-divider {
+.fg-content.padding .fg-divider {
   margin-left: -20px;
   margin-right: -20px;
 }
