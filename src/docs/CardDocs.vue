@@ -1,6 +1,6 @@
 <template>
   <div>
-    <divider/>
+    <fg-divider/>
 
     <header-large>
       CARD
@@ -92,7 +92,7 @@ export default {
 </script>
 
 <style scoped>
-.divider {
+.fg-divider {
   margin: 32px 0px;
 }
 .image-container {

@@ -1,19 +1,19 @@
 <template>
-  <hr class="divider"/>
+  <hr class="fg-divider"/>
 </template>
 
 <script>
 export default {
-  name: 'Divider',
+  name: 'fg-divider',
 };
 </script>
 
 <style scoped>
-.divider {
+.fg-divider {
   border-width: 2px;
   border-style: solid;
 }
-.content.padding .divider {
+.content.padding .fg-divider {
   margin-left: -20px;
   margin-right: -20px;
 }

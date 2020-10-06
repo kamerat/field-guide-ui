@@ -1,6 +1,6 @@
 <template>
   <div>
-    <divider/>
+    <fg-divider/>
 
     <header-large>
       IMAGE CONTAINER
@@ -101,7 +101,7 @@ export default {
 </script>
 
 <style scoped>
-.divider {
+.fg-divider {
   margin: 32px 0px;
 }
 .image-container {

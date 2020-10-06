@@ -1,11 +1,11 @@
 <template>
   <div>
-    <divider/>
+    <fg-divider/>
     <text-large>
       A design system inspired by the simplicity and useability
       found in vintage field guides.
     </text-large>
-    <divider/>
+    <fg-divider/>
     <image-container
       v-for="(image, index) in images"
       :src="image"
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style scoped>
-.divider {
+.fg-divider {
   margin: 32px 0px;
 }
 .text-large {
