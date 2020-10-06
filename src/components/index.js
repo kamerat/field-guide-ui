@@ -9,7 +9,7 @@ import TextLarge from './TextLarge.vue';
 import Divider from './Divider.vue';
 import ImageContainer from './ImageContainer.vue';
 import CodeContent from './Code.vue';
-import Card from './Card.vue';
+import fgCard from './fg-card.vue';
 import Table from './Table.vue';
 
 require('typeface-roboto-condensed');
@@ -25,7 +25,7 @@ const Components = {
   Divider,
   ImageContainer,
   CodeContent,
-  Card,
+  fgCard,
   Table,
 };
 

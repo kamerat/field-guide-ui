@@ -1,6 +1,6 @@
 <template>
   <div class="code-example">
-    <card
+    <fg-card
       :title="title"
     >
       <div class="label" v-on:click="toggleCode">
@@ -10,7 +10,7 @@
       <div v-else>
         <slot name="example"/>
       </div>
-    </card>
+    </fg-card>
   </div>
 </template>
 

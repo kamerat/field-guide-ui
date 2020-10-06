@@ -19,7 +19,7 @@
 import 'highlight.js/styles/default.css';
 
 export default {
-  name: 'Card',
+  name: 'fg-card',
   props: {
     title: String,
     shadow: Boolean,

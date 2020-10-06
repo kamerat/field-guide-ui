@@ -13,11 +13,11 @@
 
     <code-example title="Basic Example" :code="basicExample">
       <template v-slot:example>
-        <card title="Card Title">
+        <fg-card title="Card Title">
           <text-large>
             Card Body
           </text-large>
-        </card>
+        </fg-card>
       </template>
     </code-example>
 
@@ -31,14 +31,14 @@
 
     <code-example title="With Shadow" :code="shadowExample">
       <template v-slot:example>
-        <card
+        <fg-card
           title="Card Title"
           shadow
         >
           <text-large>
             Card Body
           </text-large>
-        </card>
+        </fg-card>
       </template>
     </code-example>
   </div>
@@ -50,11 +50,11 @@ export default {
   data: () => ({
     basicExample: ''
       + '<template>\n'
-      + '  <card title="Card Title">\n'
+      + '  <fg-card title="Card Title">\n'
       + '    <text-large>\n'
       + '      Card Body\n'
       + '    </text-large>\n'
-      + '  </card>\n'
+      + '  </fg-card>\n'
       + '</template>\n'
       + '\n'
       + '<script>\n'
@@ -64,14 +64,14 @@ export default {
       + '<script>',
     shadowExample: ''
       + '<template>\n'
-      + '  <card\n'
+      + '  <fg-card\n'
       + '    title="Card Title"\n'
       + '    shadow\n'
       + '  >\n'
       + '    <text-large>\n'
       + '      Card Body\n'
       + '    </text-large>\n'
-      + '  </card>\n'
+      + '  </fg-card>\n'
       + '</template>\n'
       + '\n'
       + '<script>\n'
