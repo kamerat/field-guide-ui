@@ -10,7 +10,7 @@ import Divider from './Divider.vue';
 import ImageContainer from './ImageContainer.vue';
 import CodeContent from './Code.vue';
 import fgCard from './fg-card.vue';
-import Table from './Table.vue';
+import fgTable from './fg-table.vue';
 
 require('typeface-roboto-condensed');
 
@@ -26,7 +26,7 @@ const Components = {
   ImageContainer,
   CodeContent,
   fgCard,
-  Table,
+  fgTable,
 };
 
 Object.keys(Components).forEach((name) => {

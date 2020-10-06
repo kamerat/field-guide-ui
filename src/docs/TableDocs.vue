@@ -13,7 +13,7 @@
 
     <code-example title="Basic Example" :code="basicExample">
       <template v-slot:example>
-        <Table
+        <fg-Table
           :items="items"
           :headers="headers"
         />
@@ -30,7 +30,7 @@
 
 <script>
 // eslint-disable-next-line no-useless-escape
-const basicExample = '<template>\n  <Table\n    :items=\"items\"\n    :headers=\"headers\"\n  \/>\n<\/template>\n\n<script>\nexport default {\n  name: \'TableExample\',\n  data: () => ({\n    headers: [\n      {\n        label: \'Label1\',\n        valueKey: \'Value1\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label2\',\n        valueKey: \'Value2\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label3\',\n        valueKey: \'Value3\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label4\',\n        valueKey: \'Value4\',\n        rightAlign: false,\n      },\n    ],\n    items: [\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n    ],\n  }),\n};\n<\/script>';
+const basicExample = '<template>\n  <fg-table\n    :items=\"items\"\n    :headers=\"headers\"\n  \/>\n<\/template>\n\n<script>\nexport default {\n  name: \'TableExample\',\n  data: () => ({\n    headers: [\n      {\n        label: \'Label1\',\n        valueKey: \'Value1\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label2\',\n        valueKey: \'Value2\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label3\',\n        valueKey: \'Value3\',\n        rightAlign: false,\n      },\n      {\n        label: \'Label4\',\n        valueKey: \'Value4\',\n        rightAlign: false,\n      },\n    ],\n    items: [\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n      {\n        Value1: \'Value1\',\n        Value2: \'Value2\',\n        Value3: \'Value3\',\n        Value4: \'Value4\',\n      },\n    ],\n  }),\n};\n<\/script>';
 
 export default {
   name: 'TableDocs',
